@@ -1,0 +1,11 @@
+# site settings
+title: rambling nola
+email: youhoo1234@gmail.com
+description: "Honestly, I have no clue what I'm doing."
+baseurl: ""
+url: ""
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty

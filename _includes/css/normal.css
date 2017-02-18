@@ -1,0 +1,38 @@
+h1 {
+	font-size: 60px;
+  font-family: "learning-curve", "mrs-eaves", serif;
+  font-weight: 400;
+}
+body {
+  width: 100% auto;
+  height: 100% auto;
+  background-image: url('{{ site.baseurl }}/img/background.jpg');
+}
+a {
+  text-decoration: none;
+
+
+}
+.head{
+  text-align: center;
+  padding-top: 20px;
+}
+#nav {
+  font-family: "mrs-eaves", serif;
+  font-size: 20px;
+  list-style-type: none;
+}
+#box{
+  background: #F6F6F6;
+  width: 70%;
+  margin: 0 auto;
+  outline: 15px solid #e5f4dc;
+  outline-offset: -30px;
+}
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+footer{
+  padding-bottom: 45px;
+}

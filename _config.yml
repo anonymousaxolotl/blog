@@ -4,8 +4,15 @@ email: youhoo1234@gmail.com
 description: "Honestly, I have no clue what I'm doing."
 baseurl: ""
 url: ""
+timezone: America/New_York
 
 # build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+include: ['_pages']
+
+# i actually dont know what this is but ive been told its useful
+sass:
+  sass_dir: assets/css
+  style: :nested

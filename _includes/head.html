@@ -1,0 +1,16 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!--i guess this makes it responsive or something-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!--typekit stuff-->
+  <script src="https://use.typekit.net/lbt0qkm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>

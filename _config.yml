@@ -1,7 +1,8 @@
 # site settings
-title: rambling nola
+title: Trail Mix
 email: youhoo1234@gmail.com
-description: "Honestly, I have no clue what I'm doing."
+description: "Honestly, I have no clue what I'm doing, but I keep on doing."
+author: anonymous axolotl
 baseurl: ""
 url: ""
 timezone: America/New_York

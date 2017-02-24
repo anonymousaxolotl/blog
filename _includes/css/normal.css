@@ -3,6 +3,27 @@ h1 {
   font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 400;
 }
+h1 a {
+	text-decoration: none;
+	color: #6b7b7a;
+}
+h1 a:hover {
+	text-decoration: none;
+	color: #93A1A0;
+}
+h2 {
+	font-size: 40px;
+	font-family: "learning-curve", "mrs-eaves", serif;
+  font-weight: 400;
+}
+h3 {
+	font-size: 40px;
+	font-family: "learning-curve", "mrs-eaves", serif;
+  font-weight: 400;
+	padding-top: 10px;
+	margin-bottom: 10px;
+
+}
 body {
   width: 100% auto;
   height: 100% auto;
@@ -12,24 +33,62 @@ body {
 }
 a {
   text-decoration: none;
-
-
+	color: #6b7b7a;
+}
+a:hover{
+	text-decoration: none;
+	color: #93A1A0;
 }
 .head{
   text-align: center;
   padding-top: 20px;
+}
+.head ul{
+	padding-left: 0px;
+}
+.head h1{
+	margin-bottom: 20px;
 }
 #nav {
   font-family: "mrs-eaves", serif;
   font-size: 20px;
   list-style-type: none;
 }
-#box{
+#nav li {
+	display: inline;
+}
+#nav li a {
+	text-decoration: none;
+	color: #6b7b7a;
+}
+#nav li a:hover {
+	text-decoration: none;
+	color: #93A1A0;
+}
+
+#box {
   background: #F6F6F6;
   width: 70%;
   margin: 0 auto;
   outline: 15px solid #93A1A0;
   outline-offset: -30px;
+	box-shadow: 1px 1px 50px 1px #000000;
+}
+#footer ul {
+	font-family: "mrs-eaves", serif;
+  font-size: 10px;
+  list-style-type: none;
+}
+#footer li {
+	display: inline;
+}
+#footer li a {
+	text-decoration: none;
+	color: #6b7b7a;
+}
+#footer li a:hover {
+	text-decoration: none;
+	color: #93A1A0;
 }
 main {
   padding-left: 50px;
@@ -37,4 +96,30 @@ main {
 }
 footer{
   padding-bottom: 45px;
+}
+.tag li {
+	background: #F6F6F6;
+	color: #93A1A0;
+	display: inline-block;
+  box-shadow: 1px 1px 5px 1px #66666f;
+  padding: 5px;
+	-webkit-transition-duration: 0.25s; /* Safari */
+	 transition-duration: 0.25s;
+}
+.tag a{
+	text-decoration: none;
+	color: #93A1A0;
+	-webkit-transition-duration: 0.25s; /* Safari */
+	 transition-duration: 0.25s;
+}
+.tag li:hover {
+	background: #93A1A0;
+	color: #F6F6F6;
+}
+.tag a:hover {
+	color: #F6F6F6;
+}
+#posttitle {
+	margin-bottom: 13px;
+	color: #6b7b7a;
 }

@@ -31,6 +31,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+p {
+font-family: "mrs-eaves", serif;
+  font-size: 18px;
+}
+time {
+font-family: "mrs-eaves", serif;
+  font-size: 18px;
+}
 a {
   text-decoration: none;
 	color: #6b7b7a;
@@ -89,6 +97,9 @@ a:hover{
 #footer li a:hover {
 	text-decoration: none;
 	color: #93A1A0;
+}
+#posttime {
+font-style: italic;
 }
 main {
   padding-left: 50px;

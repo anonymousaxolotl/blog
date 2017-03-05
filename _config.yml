@@ -6,12 +6,16 @@ author: anonymous axolotl
 baseurl: ""
 url: ""
 timezone: America/New_York
-
-# build settings
+source: C:\Users\anony\Documents\blog
+gems: [jekyll-paginate-v2]
+#build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 include: ['_pages']
+enabled: true
+per_page: 5
+permalink: '/page/:num/'
 
 # i actually dont know what this is but ive been told its useful
 sass:

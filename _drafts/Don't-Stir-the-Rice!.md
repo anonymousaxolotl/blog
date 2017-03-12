@@ -15,5 +15,6 @@ Follow the wisdom found on the vast interwebs. I might not be an expert cook, bu
 
 ## Finally, a Booster Lesson in Rice
 
+Need a rice recipe reminder? It's here, my friend. It's here.
 * Rinse your rice
 *  

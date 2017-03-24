@@ -1,5 +1,5 @@
 h1 {
-	font-size: 55px;
+	font-size: 70px;
   font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 300;
 	margin-top: 15px;
@@ -14,12 +14,12 @@ h1 a:hover {
 	color: #93A1A0;
 }
 h2 {
-	font-size: 35px;
+	font-size: 50px;
 	font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 400;
 }
 h3 {
-	font-size: 35px;
+	font-size: 50px;
 	font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 400;
 	padding-top: 0px;
@@ -31,11 +31,11 @@ body {
 }
 p {
 font-family: "mrs-eaves", serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 time {
 font-family: "mrs-eaves", serif;
-  font-size: 12px;
+  font-size: 13px;
 }
 a {
   text-decoration: none;
@@ -73,7 +73,7 @@ pre {
 }
 #nav {
   font-family: "mrs-eaves", serif;
-  font-size: 15px;
+  font-size: 18px;
   list-style-type: none;
 	margin-top: 0px;
 }

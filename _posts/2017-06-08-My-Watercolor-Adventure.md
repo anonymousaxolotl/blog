@@ -4,6 +4,8 @@ title:  "My Watercolor Adventure"
 date:   2017-06-08
 categories: art
 tags: [art, watercolor]
+pagination:
+  enabled: true
 ---
 I've been fiddling around with some old Crayola watercolors and cheap Walmart paper, but it just wasn't holding up to what I see on those perfect Instagram videos of people painting flowers and stuff. I had a Michael's gift card, so I decided to step my watercolor game up a notch… or maybe twenty notches.
 ![supplies]({{ site.url }}/img/wc_supplies.jpg)

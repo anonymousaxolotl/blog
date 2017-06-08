@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Watercolor Adventure"
-date:   2017-06-08
+date:   "2017-06-08"
 categories: art
 tags: [art, watercolor]
 pagination:

@@ -3,8 +3,8 @@ title: Trail Mix
 email: youhoo1234@gmail.com
 description: "Honestly, I have no clue what I'm doing, but I keep on doing."
 author: anonymous axolotl
-baseurl: "/blog"
-url: ""
+baseurl: "/blog/"
+url: "http://anonymousaxolotl.github.io"
 timezone: America/New_York
 source: C:\Users\anony\Documents\blog
 gems: [jekyll-paginate-v2]

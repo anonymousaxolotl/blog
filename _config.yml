@@ -3,7 +3,7 @@ title: Trail Mix
 email: youhoo1234@gmail.com
 description: "Honestly, I have no clue what I'm doing, but I keep on doing."
 author: anonymous axolotl
-baseurl: "/blog/"
+baseurl: "/blog"
 url: "http://anonymousaxolotl.github.io"
 timezone: America/New_York
 source: C:\Users\anony\Documents\blog
@@ -17,7 +17,7 @@ highlighter: rouge
 permalink: pretty
 include: ['_pages']
 pagination:
-  enabled: true
+  enabled: false
   per_page: 3
   permalink: '/page/:num/'
   title: ':title - page :num of :max'

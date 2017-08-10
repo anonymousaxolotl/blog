@@ -3,10 +3,18 @@
 {% include head.html %}
 
 <body>
+<div class="wrapper">
 
-	<div id="box">
+	<div class="item">
+		<ul>
+				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+				<li><a href="/blog/tag/">Tags</a></li>
+				<li><a href="/blog/about/">About</a></li>
 
-				{% include header.html %}
+		</ul>
+	</div>
+	<div class="item">
+		{% include header.html %}
 			<main>
 				<div>
 					{{ content }}
@@ -14,6 +22,8 @@
 			</main>
 			{% include footer.html %}
 	</div>
+
+</div>
 	{% include analytics.html %}
 </body>
 

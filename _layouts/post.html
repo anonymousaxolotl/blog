@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h2 id="posttitle">{{ page.title }}</h2>
+<h2 id="posttitle">{{ page.title | escape }}</h2>
 <time id="posttime">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-{{ content }}
-
+<div class="article">
+  {{ content }}
+</div>
 <ul class="tag">
 {% for tags in page.tags %}
    <li>{{ tags }}</li>

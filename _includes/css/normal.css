@@ -3,19 +3,13 @@ h1 {
   font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 400;
 }
-h1 a {
-	text-decoration: none;
-	color: #6b7b7a;
-}
-h1 a:hover {
-	text-decoration: none;
-	color: #93A1A0;
-}
+
 h2 {
 	font-size: 40px;
 	font-family: "learning-curve", "mrs-eaves", serif;
   font-weight: 400;
 }
+
 h3 {
 	font-size: 40px;
 	font-family: "learning-curve", "mrs-eaves", serif;
@@ -24,19 +18,21 @@ h3 {
 	margin-bottom: 10px;
 
 }
+
 body {
-  background-image: url('{{ site.baseurl }}/img/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-color: #F6F6F6;
 }
+
 p {
 font-family: "mrs-eaves", serif;
   font-size: 18px;
 }
+
 time {
 font-family: "mrs-eaves", serif;
   font-size: 18px;
 }
+
 a {
   text-decoration: none;
 	color: #6b7b7a;
@@ -45,6 +41,7 @@ a:hover{
 	text-decoration: none;
 	color: #93A1A0;
 }
+
 code {
 	font-family: "anonymous-pro", monospace;
 	font-size: 12px;
@@ -54,6 +51,7 @@ code {
 	border-color: #e9e9e9;
 	background-color: #e9e9e9;
 }
+
 pre {
 	border: 4px;
 	padding: 5px;
@@ -61,41 +59,41 @@ pre {
 	border-color: #e9e9e9;
 	background-color: #e9e9e9;
 }
-.head{
-  text-align: center;
-  padding-top: 20px;
+.wrapper {
+	display: flex;
+	justify-content: center;
 }
-.head ul{
-	padding-left: 0px;
+
+.item {
+  background: #F6F6F6;
 }
-.head h1{
-	margin-bottom: 20px;
+
+.item:nth-child(2) {
+	border-right: 2px solid #93A1A0;
+	width: 70%
 }
-#nav {
+
+.item:nth-child(1) {
+	width: 30%;
   font-family: "mrs-eaves", serif;
   font-size: 20px;
   list-style-type: none;
-}
-#nav li {
-	display: inline;
-}
-#nav li a {
-	text-decoration: none;
-	color: #6b7b7a;
-}
-#nav li a:hover {
-	text-decoration: none;
-	color: #93A1A0;
+	order: 1;
 }
 
-#box {
-  background: #F6F6F6;
-  width: 70%;
-  margin: 0 auto;
-  outline: 15px solid #93A1A0;
-  outline-offset: -30px;
-	box-shadow: 1px 1px 50px 1px #000000;
+.item:nth-child(1) li {
+	list-style: none;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
+
+.item:nth-child(1) li a:hover {
+	background-color: #93A1A0;
+	color: #F6F6F6;
+}
+
+
 #footer ul {
 	font-family: "mrs-eaves", serif;
   font-size: 10px;

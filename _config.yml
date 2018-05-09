@@ -1,13 +1,14 @@
 # site settings
-title: Accidental Engineering
+title: Hannah Kirkland
 email: youhoo1234@gmail.com
-description: "Hi! I have a lot of different interests, some of which end up here!"
-author: anonymous axolotl
+description: "I'm an electrical engineering student."
+author: Hannah Kirkland
 baseurl: "/blog"
 url: "http://anonymousaxolotl.github.io"
 timezone: America/New_York
 source: C:\Users\anony\Documents\blog
-gems: [jekyll-paginate-v2]
+plugins_dir:
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -16,14 +17,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 include: ['_pages']
-pagination:
-  enabled: false
-  per_page: 3
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 
 # i actually dont know what this is but ive been told its useful
 sass:
